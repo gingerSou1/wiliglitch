@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "name": "WiliGlitch",
+  "version": 2,
+  "description": "OneWili MAIN communication check; physical outputs locked",
+  "target": "SRAM",
+  "uf2_bytes": 92672,
+  "payload_bytes": 46204,
+  "payload_start": "0x20000000",
+  "payload_end_exclusive": "0x2000b47c",
+  "sha256": "3e6640c72056f6b5ceaaba8953fc3c7de6dbce995f8cbf369573edfbd063ebd4",
+  "elf_load_segments": [
+    {
+      "start": "0x20000000",
+      "file_bytes": 46204,
+      "ram_bytes": 145748
+    },
+    {
+      "start": "0x20080000",
+      "file_bytes": 0,
+      "ram_bytes": 4096
+    },
+    {
+      "start": "0x20081000",
+      "file_bytes": 0,
+      "ram_bytes": 4096
+    }
+  ],
+  "live_output_command_symbols": "ABSENT",
+  "v001_and_rollback": "UNCHANGED"
+}

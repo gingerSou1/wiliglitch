@@ -1,0 +1,14 @@
+﻿{
+  "artifact": "dist\\WiliGlitch-v001.uf2",
+  "sha256": "81a4039c1f310f06d180c768483fb7473d7d82c4fbc21daef52d7ab97cee71ad",
+  "file_bytes": 74240,
+  "blocks": 145,
+  "payload_bytes": 37056,
+  "payload_start": "0x20000000",
+  "payload_end_exclusive": "0x200090c0",
+  "supported_payload_window_bytes": 458752,
+  "initial_stack_pointer": "0x20082000",
+  "reset_vector": "0x20000197",
+  "family_id": "0xe48bff59",
+  "status": "PASS"
+}

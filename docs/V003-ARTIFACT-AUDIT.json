@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "name": "WiliGlitch",
+  "version": 3,
+  "description": "Passive UI regression diagnostic; OneWili startup/retries paused",
+  "target": "SRAM",
+  "uf2_bytes": 95232,
+  "payload_bytes": 47596,
+  "payload_start": "0x20000000",
+  "payload_end_exclusive": "0x2000b9ec",
+  "sha256": "4f1662241106068261d253dd3c37a5d2a2a17dd7addb9d6c371e35f8b7f73b9b",
+  "elf_load_segments": [
+    {
+      "start": "0x20000000",
+      "file_bytes": 47596,
+      "ram_bytes": 146884
+    },
+    {
+      "start": "0x20080000",
+      "file_bytes": 0,
+      "ram_bytes": 4096
+    },
+    {
+      "start": "0x20081000",
+      "file_bytes": 0,
+      "ram_bytes": 4096
+    }
+  ],
+  "live_output_command_symbols": "ABSENT",
+  "v001_and_rollback": "UNCHANGED",
+  "v002": "UNCHANGED"
+}
